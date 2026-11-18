@@ -1,253 +1,120 @@
-# Awesome-3D-Lighting-Relighting-Tools
+# Awesome 3D Lighting & Relighting Tools
 
-## Top 3D Lighting & Relighting Tools Ecosystem
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-3D-Lighting-Relighting-Tools/pulls)
+[![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-3D-Lighting-Relighting-Tools?style=social)](https://github.com/ishandutta2007/Awesome-3D-Lighting-Relighting-Tools/stargazers)
 
+> A curated directory of premier **3D Lighting, Scene Relighting, Neural Illumination, HDRI Environment Maps, 3D Gaussian Splatting (3DGS) Light Transport, and Cloud GPU Path Tracing** tools, SaaS platforms, and open-source frameworks.
 
+Whether you are a VFX look-development artist, 3D lighting TD, computer vision engineer, virtual production supervisor, or machine learning researcher, this index compiles production-proven commercial SaaS solutions and active open-source software powering state-of-the-art computer graphics lighting pipelines.
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Physically Based 3D Lighting, Neural & 3DGS Scene Relighting, HDRI Studio Illumination & Cloud GPU Rendering*  
-
-**Last updated: November 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **3D Lighting & Relighting Tools**. These tools enable look-development artists, VFX supervisors, virtual production teams, and AI researchers to light 3D scenes with physically accurate HDRIs, relight captured 3D Gaussian Splats and NeRFs, bake real-time illumination, and scale path-traced rendering across local or cloud GPUs.
-
-
-
-**Examples** include Spline 3D, Luma AI, Jawset Postshot, Adobe Substance 3D, Marmoset Toolbag, Chaos Cloud, V-Ray, OctaneRender Cloud, Redshift, Blender Studio, and storytold/lightcraft (the category leaders). 
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for local neural 3D/multi-view relighting, relightable 3D Gaussian Splatting, Houdini/Blender HDRI studio lighting tools, physically based path tracers, and scene-referred 32-bit color/lighting pipelines — ideal for look-dev artists, lighting TDs, and graphics researchers building transparent pipelines.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
+---
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS & Commercial Platforms](#saas--commercial-platforms)
+- [Open-Source Repositories & Frameworks](#open-source-repositories--frameworks)
+- [Key Relighting Methodologies](#key-relighting-methodologies)
 - [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Spline 3D](https://spline.design)**  
-
-  Collaborative browser-based 3D design and real-time lighting studio offering physical/matcap shaders, interactive spotlights, environment maps, and instant WebGL embeds.
-
-
-
-- **[Luma AI](https://lumalabs.ai)**  
-
-  Cloud AI 3D capture and radiance field platform supporting interactive WebGL lighting adjustments, shader integration, and photorealistic 3D asset generation.
-
-
-
-- **[Jawset Postshot](https://jawset.com)**  
-
-  High-speed 3D Gaussian Splatting and radiance field workstation featuring live training previews, ACES color pipelines, and Unreal Engine / After Effects relighting workflows.
-
-
-
-- **[Adobe Substance 3D Stager & Sampler](https://adobe.com)**  
-
-  Commercial look-development and virtual photography suite featuring real-time ray-traced studio lighting, parametric HDRI light editors, and IBL environment generation.
-
-
-
-- **[Marmoset Toolbag](https://marmoset.co)**  
-
-  Industry-standard real-time ray-traced look-development, baking, and sky/HDRI lighting suite with interactive WebGL viewer export for game and film assets.
-
-
-
-- **[Chaos Cloud & V-Ray](https://www.chaos.com/)**  
-
-  Production-proven physically based rendering and cloud render-farm ecosystem featuring Adaptive Dome Light, Light Mix post-render relighting, and global illumination.
-
-
-
-- **[OTOY OctaneRender & RNDR Cloud](https://otoy.com)**  
-
-  Unbiased spectral GPU path-tracing engine backed by decentralized cloud GPU rendering for real-time volumetric lighting, caustics, and look development.
-
-
-
-- **[Maxon Redshift](https://maxon.net)**  
-
-  Biased GPU-accelerated production renderer offering interactive IPR lighting previews, physical sun/sky systems, volumetric fog, and cloud rendering integrations.
-
-
-
-- **[Blender Studio (Cloud)](https://studio.blender.org/)**  
-
-  Cloud production platform, open-movie asset library, and collaborative pipeline hub built around Blender's Cycles and EEVEE lighting workflows.
-
-
-
-- **[Lightmap HDR Light Studio](https://www.lightmap.co.uk/)**  
-
-  Dedicated real-time 3D lighting application that lets artists paint and position HDRI studio softboxes, rims, and area lights live across Blender, Maya, Houdini, and Cinema 4D.
-
-
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Stability-AI/ReLi3D](https://github.com/Stability-AI/ReLi3D)**  
-
-  Open-source relightable multi-view 3D reconstruction model (`ICLR 2026`) that predicts UV-unwrapped textured meshes with disentangled illumination and spatially varying PBR materials.
-
-
-
-- **[RelightFormer (`vLAR-group/RelightFormer`)](https://github.com/vLAR-group/RelightFormer)**  
-
-  SIGGRAPH Asia 2026 open-source feed-forward generative Transformer for multi-view consistent 3D scene relighting without slow iterative inverse rendering.
-
-
-
-- **[IC-Light (`lllyasviel/IC-Light`)](https://github.com/lllyasviel/ic-light)**  
-
-  Popular open-source (`Apache-2.0`) illumination-manipulation diffusion framework supporting text-conditioned and background-conditioned consistent relighting for 3D renders and portraits.
-
-
-
-- **[DDS-Relight (`tarhanefe/dds-relight`)](https://github.com/tarhanefe/dds-relight)**  
-
-  Open-source 3D NeRF and radiance field relighting framework integrating wavelet-based gradient filtering and diffusion guidance to preserve reflections and scene geometry.
-
-
-
-- **[GR3EN (`gr3en-relight`)](https://gr3en-relight.github.io/)**  
-
-  Open-source generative 3D environment relighting system that distills video-to-video relighting diffusion into 3D reconstructions with realistic cast shadows, reflections, and neon/lamp insertion.
-
-
-
-- **[grabanton/lighter](https://github.com/grabanton/lighter)**  
-
-  Open-source Houdini package for fast HDRI studio lighting editing, highlight detection, and extracting bright HDR regions into separate native Houdini/Karma lights.
-
-
-
-- **[SkyRig Studio (`lamer486/SkyRigStudio`)](https://github.com)**  
-
-  Free, open-source (`MIT`) HDRI and sun-alignment lighting script for 3ds Max featuring Poly Haven HDRI downloads, automatic sun detection, and exposure/EV overrides.
-
-
-
-- **[Blender (Cycles & EEVEE Next)](https://github.com)**  
-
-  Flagship open-source (`GPL-2.0+`) 3D creation suite featuring Light Linking, Cycles spectral/path-traced global illumination, Nishita physical sky, and real-time EEVEE lighting.
-
-
-
-- **[LuxCoreRender](https://github.com)**  
-
-  Open-source (`Apache-2.0`) physically based, unbiased spectral path-tracing render engine specialized in complex light transport, caustics, and architectural daylighting.
-
-
-
-- **[Mitsuba 3](https://github.com)**  
-
-  Research-grade open-source (`BSD-3-Clause`) retargetable forward and inverse rendering system built for differentiable 3D lighting, material optimization, and light transport simulation.
-
-
-
-- **[Appleseed](https://github.com)**  
-
-  Open-source (`MIT`) physically based global illumination rendering engine designed for film look-development, realistic area lighting, and animation.
-
-
-
-- **[storytold/lightcraft](https://github.com/storytold/lightcraft)**  
-
-  Open-source (`Apache-2.0`) pure-Rust, scene-referred 32-bit float non-destructive photo and EXR/HDR raw developer with WebAssembly support and AI agent MCP control.
-
-
-
-- **[MakeHDR (`sosoyan/make-hdr`)](https://github.com/sosoyan/make-hdr)**  
-
-  Cross-platform open-source (`BSD-3-Clause`) OpenFX plug-in for Nuke, Fusion, and Natron that merges multi-exposure LDR brackets into calibrated 32-bit HDRI environment maps.
-
-
-
-- **[HDRI-lighting-Shortcut (`Nikos-Prinios`)](https://github.com/Nikos-Prinios/HDRI-lighting-Shortcut)**  
-
-  Open-source Blender add-on providing one-click HDRI world shader node setups, rotation/elevation gizmos, and strength controls for rapid look-dev lighting.
-
-
-
-- **[NeRF-OSR (`r00tman/NeRF-OSR`)](https://github.com)**  
-
-  Open-source PyTorch framework for outdoor 3D scene relighting using neural radiance fields with disentangled illumination and surface reflectance.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[houyuanchen111/Awesome-Relight](https://github.com/houyuanchen111/Awesome-Relight)** and **[tandaily/Awesome-Relighting](https://github.com/tandaily/Awesome-Relighting)** for comprehensive research maps covering `LuxRemix`, `SSD-GS` (Relightable 3DGS), `COREA`, `IllumiNeRF`, and inverse rendering datasets.
-
-- **[Poly Haven HDRIs](https://github.com)** for 100% free, CC0-licensed up to 16K/24K unclipped 32-bit EXR/HDR studio, indoor, and outdoor lighting environments.
-
-- **[Radiance](https://github.com)** for validated physically based architectural lighting simulation and luminance/illuminance engineering analysis.
-
-- **[Cycles Standalone](https://github.com)** and **[Embree (Intel)](https://github.com)** / **[OpenImageDenoise](https://github.com)** for high-performance CPU/GPU ray-tracing kernels and AI path-trace denoising.
-
-- **[Three.js PMREMGenerator & Lightformers](https://github.com)** and **[Drei `<Environment>` / `<Lightformer>`](https://github.com)** for building custom real-time WebGL HDRI studio lighting rigs in browsers.
-
-
-
-**Frameworks for building custom systems**: Combine **Blender Cycles** or **Mitsuba 3** with **Stability-AI/ReLi3D**, **IC-Light**, **Poly Haven HDRIs**, and **storytold/lightcraft** (for 32-bit float tone mapping) for end-to-end open-source 3D lighting and relighting pipelines.
-
-
+- [License & Disclaimer](#license--disclaimer)
+
+---
+
+## Sector Overview & Market Dynamics
+
+The global **3D rendering and computer graphics software market** is valued at approximately **$4.3B to $5.2B in 2025–2026** (within the broader **$210B+ computer graphics ecosystem**) and is projected to expand at a compound annual growth rate (**CAGR of 16%–24%**) toward **$14B+ by 2034**. 
+
+Market dynamics demonstrate a **bifurcated, moderately fragmented ecosystem transitioning into hybrid generative workflows**:
+- **Consolidated Incumbents & Megacaps**: Offline DCC look-development and production rendering remain heavily anchored by consolidated platforms (Adobe Substance 3D, Nemetschek/Maxon Redshift, and Chaos Group/V-Ray).
+- **High-Velocity AI & Neural Relighting Frontier**: Driven by real-time neural radiance fields (NeRF), generative multi-view relighting, and 3D Gaussian Splatting (3DGS), venture-backed startups (Luma AI, Spline 3D, Jawset) and open research teams innovate dynamically without single-winner dominance, accelerating in-browser WebGL and diffusion-guided neural light transport.
+
+---
+
+## SaaS & Commercial Platforms
+
+The table below catalogs leading commercial look-development platforms, cloud renderers, and real-time lighting suites. Products are sorted in **descending order by company scale** (market capitalization, enterprise valuation, or annual revenue run-rate).
+
+| Company / Product | Company Scale (Valuation / Revenue) | Description | Pricing (Starting Tier) | Free Tier Limits / Free Trial |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Adobe Substance 3D](https://www.adobe.com/creativecloud/3d-ar.html)** (Stager & Sampler) | **~$95B - $104B Market Cap** (Public: NASDAQ: ADBE; ~$24B+ Rev) | Industry standard virtual photography and look-dev suite featuring ray-traced physical studio lighting, parametric HDRI creation, and IBL setups. | **$24.99/mo** (Texturing plan) / **$59.99/mo** (Full 3D Collection) | **30-day free trial** (Full Substance 3D Collection with all 5 desktop apps and 3D asset downloads; requires payment method on sign-up) |
+| **[Maxon Redshift](https://www.maxon.net/redshift)** | **~$10B - $11B Parent Cap** (Nemetschek Group: XETRA: NEM; ~$120M Media Rev) | Production-proven biased GPU-accelerated renderer offering real-time IPR lighting previews, physical sky/sun simulations, and volumetrics. | **$69.92/mo** ($839/yr billed annually) or **$109/mo** | **14-day free trial** (Complete Maxon One suite including Redshift and Cinema 4D; no credit card required) |
+| **[Luma AI](https://lumalabs.ai)** | **$4.0B Valuation** (~$1.06B raised; ~$8M+ ARR) | Cloud AI radiance field and 3D capture engine enabling interactive scene relighting, shader modulation, and camera flythrough generation. | **$9.99/mo** (Lite plan) / **$30.00/mo** (Plus plan with full commercial rights) | **Permanent free plan** (Starter non-commercial generation credits, limited to 720p/draft resolution, mandatory visible watermark) |
+| **[Chaos Cloud & V-Ray](https://www.chaos.com/)** | **~$1.5B+ Est. Valuation** (Merged with Enscape; PE-backed by TA Associates) | Flagship photorealistic rendering ecosystem featuring Adaptive Dome Lights, post-render Light Mix relighting, and scalable cloud rendering. | **$45.00/mo** ($540/yr billed annually) for V-Ray Solo | **30-day free trial** (Full access to V-Ray for host DCC applications, Chaos Cosmos asset library, and trial cloud credits) |
+| **[Spline 3D](https://spline.design)** | **~$50M - $100M Est. Valuation** (~$25M raised; Dealroom / YC) | Collaborative browser-native 3D design and real-time lighting studio with interactive spotlights, HDR environment maps, and instant WebGL embeds. | **$12.00/mo** ($144/yr billed annually) or **$15.00/mo** (Hobby plan) | **Permanent free plan** (Unlimited file viewers, community library access, capped personal projects, 0 AI credits, 20 MCP daily calls, web exports include Spline watermark) |
+| **[OTOY OctaneRender & RNDR](https://otoy.com)** | **~$98M Raised** (Private; ~$12M - $16M Est. ARR) | Unbiased spectral GPU path tracer coupled with decentralized RNDR cloud rendering for physically accurate caustics and volumetric illumination. | **€19.99/mo** (billed annually) or **€23.95/mo** (Studio+ plan) | **Permanent free plan: Octane Prime** (Single-GPU local limit, select plugin integrations, network rendering disabled, internet connection required) |
+| **[Marmoset Toolbag](https://marmoset.co)** | **~$15M - $30M Est. ARR** (Bootstrapped private studio) | Real-time GPU look-dev, material baking, and studio lighting rig suite with interactive light grouping and WebGL viewer packaging. | **$18.99/mo** (Individual subscription) or **$399.00** one-time perpetual license | **30-day free trial** (Unrestricted feature access including real-time baking and full HDRI lighting tools) |
+| **[Blender Studio](https://studio.blender.org/)** | **~$4M - $6M Non-Profit Budget** (Blender Foundation / Institute) | Production platform and open-movie pipeline hub hosting studio lighting setups, look-dev assets, and masterclasses for Cycles and EEVEE. | **€11.50/mo** (Membership subscription) | **No free tier** (Blender software itself is 100% free and unrestricted; access to Studio training, production files, and masterclasses requires active membership) |
+| **[Lightmap HDR Light Studio](https://www.lightmap.co.uk/)** | **~$2M - $5M Est. ARR** (Specialized private vendor) | Dedicated interactive 3D lighting software enabling artists to interactively paint studio softboxes, reflections, and HDR rims live into Maya, 3ds Max, Houdini, and Blender. | **$540.00/yr** (Node-locked Pro plan) or **$1,140.00/yr** (Floating license) | **Permanent free trial** (All plugins enabled, fully functional interactive viewport lighting; saving and exporting final HDR/EXR maps is disabled, viewport output watermarked) |
+| **[Jawset Postshot](https://jawset.com)** | **Boutique Independent** (Private studio by Jascha Wetzel) | Real-time radiance field and 3D Gaussian Splatting training workstation with 32-bit float color accuracy and Unreal Engine / After Effects relighting export. | **€17.00/mo** (€204/yr billed annually) for Indie plan | **Permanent free plan** (Non-commercial license, maximum 4K SDR 8-bit output, render outputs include watermark, advanced export formats like .PLY/.SPZ locked) |
+
+---
+
+## Open-Source Repositories & Frameworks
+
+The following open-source frameworks provide the algorithmic foundations for scene relighting, differentiable light transport, 3D Gaussian Splatting, and physically based rendering (PBR). Repositories are ranked in **descending order by GitHub stargazers count**, with each star badge linking directly to the respective repository's stargazers page.
+
+| Repository | GitHub Stars Badge | Primary Lighting & Relighting Capabilities |
+| :--- | :--- | :--- |
+| **[mrdoob/three.js](https://github.com/mrdoob/three.js)** | [![GitHub stars](https://img.shields.io/github/stars/mrdoob/three.js?style=social&color=white)](https://github.com/mrdoob/three.js/stargazers) | Core WebGL/WebGPU 3D library with real-time PBR shaders, PMREM environment map pre-filtering, Light Probe evaluation, shadow maps, and custom studio lighting rigs. |
+| **[graphdeco-inria/gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting)** | [![GitHub stars](https://img.shields.io/github/stars/graphdeco-inria/gaussian-splatting?style=social&color=white)](https://github.com/graphdeco-inria/gaussian-splatting/stargazers) | Groundbreaking 3D Gaussian Splatting codebase serving as the foundational representation for real-time radiance field rendering, view synthesis, and neural relighting extensions. |
+| **[blender/blender](https://github.com/blender/blender)** | [![GitHub stars](https://img.shields.io/github/stars/blender/blender?style=social&color=white)](https://github.com/blender/blender/stargazers) | Comprehensive open-source 3D suite featuring the Cycles path-tracing engine, EEVEE Next real-time renderer, Nishita physical sky system, and native Light Linking. |
+| **[storytold/lightcraft](https://github.com/storytold/lightcraft)** | [![GitHub stars](https://img.shields.io/github/stars/storytold/lightcraft?style=social&color=white)](https://github.com/storytold/lightcraft/stargazers) | Pure-Rust scene-referred 32-bit float non-destructive image processor and EXR tone mapper designed for AI agent control via Model Context Protocol (MCP). |
+| **[isl-org/Open3D](https://github.com/isl-org/Open3D)** | [![GitHub stars](https://img.shields.io/github/stars/isl-org/Open3D?style=social&color=white)](https://github.com/isl-org/Open3D/stargazers) | Open-source 3D data processing library with real-time filament-based physically based rendering (PBR), environment light mapping, and geometry inspection. |
+| **[nerfstudio-project/nerfstudio](https://github.com/nerfstudio-project/nerfstudio)** | [![GitHub stars](https://img.shields.io/github/stars/nerfstudio-project/nerfstudio?style=social&color=white)](https://github.com/nerfstudio-project/nerfstudio/stargazers) | Modular radiance field developer framework integrating multiple neural representation models with exportable cameras, environment lighting, and real-time Web viewers. |
+| **[pmndrs/drei](https://github.com/pmndrs/drei)** | [![GitHub stars](https://img.shields.io/github/stars/pmndrs/drei?style=social&color=white)](https://github.com/pmndrs/drei/stargazers) | React-three-fiber helper suite featuring `<Environment>`, `<Lightformer>`, and `<AccumulativeShadows>` for rapid browser-based procedural studio lighting setups. |
+| **[lllyasviel/IC-Light](https://github.com/lllyasviel/IC-Light)** | [![GitHub stars](https://img.shields.io/github/stars/lllyasviel/IC-Light?style=social&color=white)](https://github.com/lllyasviel/IC-Light/stargazers) | State-of-the-art illumination manipulation framework enabling text-conditioned, normal-conditioned, and background-referenced relighting for 3D renders, subjects, and scenes. |
+| **[nerfstudio-project/gsplat](https://github.com/nerfstudio-project/gsplat)** | [![GitHub stars](https://img.shields.io/github/stars/nerfstudio-project/gsplat?style=social&color=white)](https://github.com/nerfstudio-project/gsplat/stargazers) | High-performance CUDA library for differentiable 3D Gaussian rasterization with full backward pass support for material, normal, and lighting attribute optimization. |
+| **[mitsuba-renderer/mitsuba3](https://github.com/mitsuba-renderer/mitsuba3)** | [![GitHub stars](https://img.shields.io/github/stars/mitsuba-renderer/mitsuba3?style=social&color=white)](https://github.com/mitsuba-renderer/mitsuba3/stargazers) | Differentiable research path-tracing system engineered for inverse rendering, light transport simulation, BRDF decomposition, and neural sensor optimization. |
+| **[appleseedhq/appleseed](https://github.com/appleseedhq/appleseed)** | [![GitHub stars](https://img.shields.io/github/stars/appleseedhq/appleseed?style=social&color=white)](https://github.com/appleseedhq/appleseed/stargazers) | Open-source physically based global illumination rendering engine purpose-built for look-development, production lighting, and animation pipelines. |
+| **[LuxCoreRender/LuxCore](https://github.com/LuxCoreRender/LuxCore)** | [![GitHub stars](https://img.shields.io/github/stars/LuxCoreRender/LuxCore?style=social&color=white)](https://github.com/LuxCoreRender/LuxCore/stargazers) | Unbiased, spectral path-tracing rendering engine excelling at complex optical light transport, glass caustics, and architectural daylight simulations. |
+| **[oppo-us-research/SpacetimeGaussians](https://github.com/oppo-us-research/SpacetimeGaussians)** | [![GitHub stars](https://img.shields.io/github/stars/oppo-us-research/SpacetimeGaussians?style=social&color=white)](https://github.com/oppo-us-research/SpacetimeGaussians/stargazers) | CVPR 2024 Spacetime Gaussian Feature Splatting system modeling dynamic 4D appearance changes, motion blur, and time-varying lighting across video captures. |
+| **[NJU-3DV/Relightable3DGaussian](https://github.com/NJU-3DV/Relightable3DGaussian)** | [![GitHub stars](https://img.shields.io/github/stars/NJU-3DV/Relightable3DGaussian?style=social&color=white)](https://github.com/NJU-3DV/Relightable3DGaussian/stargazers) | ECCV 2024 framework for real-time 3D Gaussian relighting with BRDF decomposition, environment map illumination, and bounding-volume ray-traced shadows. |
+| **[ashawkey/diff-gaussian-rasterization](https://github.com/ashawkey/diff-gaussian-rasterization)** | [![GitHub stars](https://img.shields.io/github/stars/ashawkey/diff-gaussian-rasterization?style=social&color=white)](https://github.com/ashawkey/diff-gaussian-rasterization/stargazers) | Enhanced differential Gaussian rasterizer supporting depth and normal map forward-backward passes essential for inverse lighting and surface reconstruction. |
+| **[tandaily/Awesome-Relighting](https://github.com/tandaily/Awesome-Relighting)** | [![GitHub stars](https://img.shields.io/github/stars/tandaily/Awesome-Relighting?style=social&color=white)](https://github.com/tandaily/Awesome-Relighting/stargazers) | Curated research bibliography tracking literature on single-image relighting, portrait illumination transfer, neural inverse rendering, and multi-view lighting. |
+| **[r00tman/NeRF-OSR](https://github.com/r00tman/NeRF-OSR)** | [![GitHub stars](https://img.shields.io/github/stars/r00tman/NeRF-OSR?style=social&color=white)](https://github.com/r00tman/NeRF-OSR/stargazers) | Outdoor scene relighting benchmark and neural radiance model that disentangles illumination, shadows, and albedo under changing solar positions. |
+| **[xgrids/LCC-3DGS-Unreal-Plugin](https://github.com/xgrids/LCC-3DGS-Unreal-Plugin)** | [![GitHub stars](https://img.shields.io/github/stars/xgrids/LCC-3DGS-Unreal-Plugin?style=social&color=white)](https://github.com/xgrids/LCC-3DGS-Unreal-Plugin/stargazers) | Unreal Engine 5 production plugin enabling ingestion, rendering, dynamic lighting, and relighting of billion-scale 3D Gaussian Splats directly in UE5 viewports. |
+| **[Stability-AI/ReLi3D](https://github.com/Stability-AI/ReLi3D)** | [![GitHub stars](https://img.shields.io/github/stars/Stability-AI/ReLi3D?style=social&color=white)](https://github.com/Stability-AI/ReLi3D/stargazers) | Multi-view 3D reconstruction and relighting research model predicting disentangled PBR material textures and lighting-independent geometry. |
+| **[houyuanchen111/Awesome-Relight](https://github.com/houyuanchen111/Awesome-Relight)** | [![GitHub stars](https://img.shields.io/github/stars/houyuanchen111/Awesome-Relight?style=social&color=white)](https://github.com/houyuanchen111/Awesome-Relight/stargazers) | Comprehensive compilation of papers and code bases covering inverse rendering, intrinsic image decomposition, and neural reflectance fields. |
+| **[grabanton/lighter](https://github.com/grabanton/lighter)** | [![GitHub stars](https://img.shields.io/github/stars/grabanton/lighter?style=social&color=white)](https://github.com/grabanton/lighter/stargazers) | Houdini production lighting utility for interactive HDRI highlight extraction, automatic sun pinpointing, and native Solaris/Karma light generation. |
+| **[Nikos-Prinios/HDRI-lighting-Shortcut](https://github.com/Nikos-Prinios/HDRI-lighting-Shortcut)** | [![GitHub stars](https://img.shields.io/github/stars/Nikos-Prinios/HDRI-lighting-Shortcut?style=social&color=white)](https://github.com/Nikos-Prinios/HDRI-lighting-Shortcut/stargazers) | Rapid Blender add-on establishing instant HDRI world shader node graphs, interactive rotation/elevation widgets, and exposure presets. |
+| **[vLAR-group/RelightFormer](https://github.com/vLAR-group/RelightFormer)** | [![GitHub stars](https://img.shields.io/github/stars/vLAR-group/RelightFormer?style=social&color=white)](https://github.com/vLAR-group/RelightFormer/stargazers) | Generative feed-forward Transformer for fast, view-consistent 3D scene illumination editing and shadow synthesis without iterative inverse optimization. |
+| **[sosoyan/make-hdr](https://github.com/sosoyan/make-hdr)** | [![GitHub stars](https://img.shields.io/github/stars/sosoyan/make-hdr?style=social&color=white)](https://github.com/sosoyan/make-hdr/stargazers) | Cross-platform OpenFX compositing plugin for Nuke and DaVinci Resolve that merges multi-exposure bracketed images into high-dynamic-range environment probes. |
+| **[tarhanefe/dds-relight](https://github.com/tarhanefe/dds-relight)** | [![GitHub stars](https://img.shields.io/github/stars/tarhanefe/dds-relight?style=social&color=white)](https://github.com/tarhanefe/dds-relight/stargazers) | 3D NeRF radiance field relighting framework employing diffusion priors and gradient filtering to synthesize plausible specular highlights and cast shadows. |
+
+---
+
+## Key Relighting Methodologies
+
+### 1. Neural & 3D Gaussian Splatting Relighting
+- **Relightable 3DGS**: Decomposes captured Gaussian points into diffuse color, normal vectors, roughness, and specular reflectance, allowing arbitrary dynamic directional lights and ambient HDRIs (`NJU-3DV/Relightable3DGaussian`).
+- **Diffusion-Guided Relighting**: Leverages 2D diffusion models conditioned on normal/depth buffers to guide 3D radiance fields (`lllyasviel/IC-Light`, `tarhanefe/dds-relight`).
+
+### 2. Physically Based Ray Tracing & Inverse Rendering
+- **Forward Path Tracing**: Unbiased light transport simulations factoring caustics, subsurface scattering, and spectral dispersion (`Mitsuba 3`, `LuxCoreRender`, `appleseed`, `Blender Cycles`).
+- **Differentiable Transport**: Enables gradient backpropagation from target render pixels to solve for light positions, intensities, and material BRDFs (`Mitsuba 3`, `gsplat`).
+
+### 3. Studio HDRI & Image-Based Lighting (IBL)
+- **High Dynamic Range Manipulation**: Calibrated 32-bit linear floating-point workflows for capturing, merging, and tone-mapping real-world radiance (`make-hdr`, `storytold/lightcraft`).
+- **Real-Time Studio Lightformers**: Interactive pin-lights, softboxes, and rim lights placed directly onto 3D surfaces in WebGL or DCC environments (`three.js`, `drei`, `HDR Light Studio`, `lighter`).
+
+---
 
 ## How to Contribute
 
+We welcome additions, fixes, and ecosystem updates!
 
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Neural 3D relighting models (such as `ReLi3D`, `RelightFormer`, and `DDS-Relight`) require compatible CUDA GPUs and calibrated multi-view camera poses for optimal inverse rendering quality.
-
-- Verify individual software and model weight licenses (`MIT`, `Apache-2.0`, `GPL-2.0+`, `BSD-3-Clause`, or community research terms) before deploying relighting pipelines in commercial productions.
-
-
+1. **Fork** this repository.
+2. **Add or update** entries in `README.md` following the table schemas:
+   - For SaaS tools: Specify exact starting prices, free tier / trial limits, and company scale indicators.
+   - For Open-Source repositories: Include the official GitHub repository link, description, and social star badge linked to `/stargazers`.
+3. Ensure entries remain sorted by company scale (for SaaS) or GitHub star count (for Open Source).
+4. **Submit a Pull Request** with a brief summary of additions.
 
 ---
+
+## License & Disclaimer
+
+- Distributed under the [Creative Commons Zero v1.0 Universal License (CC0-1.0)](LICENSE).
+- Commercial product pricing, free tiers, and company metrics reflect publicly available information as of 2026 and are subject to change by respective vendors.
