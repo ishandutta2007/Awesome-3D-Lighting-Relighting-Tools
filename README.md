@@ -1,42 +1,53 @@
-# Awesome 3D Lighting & Relighting Tools
+# Awesome 3D Lighting & Relighting Tools 💡✨
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-3D-Lighting-Relighting-Tools/pulls)
-[![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-3D-Lighting-Relighting-Tools?style=social)](https://github.com/ishandutta2007/Awesome-3D-Lighting-Relighting-Tools/stargazers)
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome 3D Lighting & Relighting Tools Banner" width="100%" />
+</p>
 
-> A curated directory of premier **3D Lighting, Scene Relighting, Neural Illumination, HDRI Environment Maps, 3D Gaussian Splatting (3DGS) Light Transport, and Cloud GPU Path Tracing** tools, SaaS platforms, and open-source frameworks.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?syyle=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Mentioned in Awesome"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0-1.0"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-3D-Lighting-Relighting-Tools/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-3D-Lighting-Relighting-Tools/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-3D-Lighting-Relighting-Tools?style=social" alt="GitHub Stars"></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-Whether you are a VFX look-development artist, 3D lighting TD, computer vision engineer, virtual production supervisor, or machine learning researcher, this index compiles production-proven commercial SaaS solutions and active open-source software powering state-of-the-art computer graphics lighting pipelines.
+> 🌟 A curated directory of premier **3D Lighting, Scene Relighting, Neural Illumination, HDRI Environment Maps, 3D Gaussian Splatting (3DGS) Light Transport, and Cloud GPU Path Tracing** tools, SaaS platforms, and open-source frameworks.
 
----
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Commercial Platforms](#saas--commercial-platforms)
-- [Open-Source Repositories & Frameworks](#open-source-repositories--frameworks)
-- [Key Relighting Methodologies](#key-relighting-methodologies)
-- [How to Contribute](#how-to-contribute)
-- [License & Disclaimer](#license--disclaimer)
+Whether you are a VFX look-development artist 🎨, 3D lighting TD 🎬, computer vision engineer 🤖, virtual production supervisor 🎥, or machine learning researcher 🔬, this index compiles production-proven commercial SaaS solutions and active open-source software powering state-of-the-art computer graphics lighting pipelines.
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📑 Table of Contents
 
-The global **3D rendering and computer graphics software market** is valued at approximately **$4.3B to $5.2B in 2025–2026** (within the broader **$210B+ computer graphics ecosystem**) and is projected to expand at a compound annual growth rate (**CAGR of 16%–24%**) toward **$14B+ by 2034**. 
-
-Market dynamics demonstrate a **bifurcated, moderately fragmented ecosystem transitioning into hybrid generative workflows**:
-- **Consolidated Incumbents & Megacaps**: Offline DCC look-development and production rendering remain heavily anchored by consolidated platforms (Adobe Substance 3D, Nemetschek/Maxon Redshift, and Chaos Group/V-Ray).
-- **High-Velocity AI & Neural Relighting Frontier**: Driven by real-time neural radiance fields (NeRF), generative multi-view relighting, and 3D Gaussian Splatting (3DGS), venture-backed startups (Luma AI, Spline 3D, Jawset) and open research teams innovate dynamically without single-winner dominance, accelerating in-browser WebGL and diffusion-guided neural light transport.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Commercial Platforms](#️-saas--commercial-platforms)
+- [💻 Open-Source Repositories & Frameworks](#-open-source-repositories--frameworks)
+- [🔬 Key Relighting Methodologies](#-key-relighting-methodologies)
+- [⭐ Star History](#-star-history)
+- [🤝 Support](#-support)
+- [🚀 How to Contribute](#-how-to-contribute)
+- [📜 License & Disclaimer](#-license--disclaimer)
 
 ---
 
-## SaaS & Commercial Platforms
+## 📊 Sector Overview & Market Dynamics
+
+The global **3D rendering and computer graphics software market** is valued at approximately **$4.3B to $5.2B in 2025–2026** 📈 (scaling within the broader **$210B+ computer graphics industry**) and is projected to expand at an aggressive compound annual growth rate (**CAGR of 16%–24%**) toward **$14B+ by 2034**. 
+
+Market concentration exhibits a **bifurcated, moderately fragmented ecosystem transitioning into hybrid generative workflows**:
+- 🏢 **Consolidated Incumbents & Megacaps**: Offline DCC look-development and production rendering remain heavily anchored by consolidated platforms (Adobe Substance 3D, Nemetschek/Maxon Redshift, and Chaos Group/V-Ray).
+- 🚀 **High-Velocity AI & Neural Relighting Frontier**: Driven by real-time neural radiance fields (NeRF), generative multi-view relighting, and 3D Gaussian Splatting (3DGS), venture-backed startups (Luma AI, Spline 3D, Jawset) and independent research collectives compete dynamically without single-winner dominance, accelerating in-browser WebGL and diffusion-guided neural light transport.
+
+---
+
+## ☁️ SaaS & Commercial Platforms
 
 The table below catalogs leading commercial look-development platforms, cloud renderers, and real-time lighting suites. Products are sorted in **descending order by company scale** (market capitalization, enterprise valuation, or annual revenue run-rate).
 
-| Company / Product | Company Scale (Valuation / Revenue) | Description | Pricing (Starting Tier) | Free Tier Limits / Free Trial |
+| 🏢 Company / Product | 📊 Company Scale (Valuation / Revenue) | 📝 Description | 💳 Pricing (Starting Tier) | 🎁 Free Tier Limits / Free Trial |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Adobe Substance 3D](https://www.adobe.com/creativecloud/3d-ar.html)** (Stager & Sampler) | **~$95B - $104B Market Cap** (Public: NASDAQ: ADBE; ~$24B+ Rev) | Industry standard virtual photography and look-dev suite featuring ray-traced physical studio lighting, parametric HDRI creation, and IBL setups. | **$24.99/mo** (Texturing plan) / **$59.99/mo** (Full 3D Collection) | **30-day free trial** (Full Substance 3D Collection with all 5 desktop apps and 3D asset downloads; requires payment method on sign-up) |
 | **[Maxon Redshift](https://www.maxon.net/redshift)** | **~$10B - $11B Parent Cap** (Nemetschek Group: XETRA: NEM; ~$120M Media Rev) | Production-proven biased GPU-accelerated renderer offering real-time IPR lighting previews, physical sky/sun simulations, and volumetrics. | **$69.92/mo** ($839/yr billed annually) or **$109/mo** | **14-day free trial** (Complete Maxon One suite including Redshift and Cinema 4D; no credit card required) |
@@ -51,11 +62,11 @@ The table below catalogs leading commercial look-development platforms, cloud re
 
 ---
 
-## Open-Source Repositories & Frameworks
+## 💻 Open-Source Repositories & Frameworks
 
 The following open-source frameworks provide the algorithmic foundations for scene relighting, differentiable light transport, 3D Gaussian Splatting, and physically based rendering (PBR). Repositories are ranked in **descending order by GitHub stargazers count**, with each star badge linking directly to the respective repository's stargazers page.
 
-| Repository | GitHub Stars Badge | Primary Lighting & Relighting Capabilities |
+| 📦 Repository | ⭐ GitHub Stars Badge | 🛠️ Primary Lighting & Relighting Capabilities |
 | :--- | :--- | :--- |
 | **[mrdoob/three.js](https://github.com/mrdoob/three.js)** | [![GitHub stars](https://img.shields.io/github/stars/mrdoob/three.js?style=social&color=white)](https://github.com/mrdoob/three.js/stargazers) | Core WebGL/WebGPU 3D library with real-time PBR shaders, PMREM environment map pre-filtering, Light Probe evaluation, shadow maps, and custom studio lighting rigs. |
 | **[graphdeco-inria/gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting)** | [![GitHub stars](https://img.shields.io/github/stars/graphdeco-inria/gaussian-splatting?style=social&color=white)](https://github.com/graphdeco-inria/gaussian-splatting/stargazers) | Groundbreaking 3D Gaussian Splatting codebase serving as the foundational representation for real-time radiance field rendering, view synthesis, and neural relighting extensions. |
@@ -85,36 +96,54 @@ The following open-source frameworks provide the algorithmic foundations for sce
 
 ---
 
-## Key Relighting Methodologies
+## 🔬 Key Relighting Methodologies
 
-### 1. Neural & 3D Gaussian Splatting Relighting
+### 1. 🔮 Neural & 3D Gaussian Splatting Relighting
 - **Relightable 3DGS**: Decomposes captured Gaussian points into diffuse color, normal vectors, roughness, and specular reflectance, allowing arbitrary dynamic directional lights and ambient HDRIs (`NJU-3DV/Relightable3DGaussian`).
 - **Diffusion-Guided Relighting**: Leverages 2D diffusion models conditioned on normal/depth buffers to guide 3D radiance fields (`lllyasviel/IC-Light`, `tarhanefe/dds-relight`).
 
-### 2. Physically Based Ray Tracing & Inverse Rendering
+### 2. ⚡ Physically Based Ray Tracing & Inverse Rendering
 - **Forward Path Tracing**: Unbiased light transport simulations factoring caustics, subsurface scattering, and spectral dispersion (`Mitsuba 3`, `LuxCoreRender`, `appleseed`, `Blender Cycles`).
 - **Differentiable Transport**: Enables gradient backpropagation from target render pixels to solve for light positions, intensities, and material BRDFs (`Mitsuba 3`, `gsplat`).
 
-### 3. Studio HDRI & Image-Based Lighting (IBL)
+### 3. 🌐 Studio HDRI & Image-Based Lighting (IBL)
 - **High Dynamic Range Manipulation**: Calibrated 32-bit linear floating-point workflows for capturing, merging, and tone-mapping real-world radiance (`make-hdr`, `storytold/lightcraft`).
 - **Real-Time Studio Lightformers**: Interactive pin-lights, softboxes, and rim lights placed directly onto 3D surfaces in WebGL or DCC environments (`three.js`, `drei`, `HDR Light Studio`, `lighter`).
 
 ---
 
-## How to Contribute
+## 📈 Star History
 
-We welcome additions, fixes, and ecosystem updates!
-
-1. **Fork** this repository.
-2. **Add or update** entries in `README.md` following the table schemas:
-   - For SaaS tools: Specify exact starting prices, free tier / trial limits, and company scale indicators.
-   - For Open-Source repositories: Include the official GitHub repository link, description, and social star badge linked to `/stargazers`.
-3. Ensure entries remain sorted by company scale (for SaaS) or GitHub star count (for Open Source).
-4. **Submit a Pull Request** with a brief summary of additions.
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-3D-Lighting-Relighting-Tools&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-3D-Lighting-Relighting-Tools&type=date&legend=top-left)
 
 ---
 
-## License & Disclaimer
+## 🤝 Support
 
-- Distributed under the [Creative Commons Zero v1.0 Universal License (CC0-1.0)](LICENSE).
-- Commercial product pricing, free tiers, and company metrics reflect publicly available information as of 2026 and are subject to change by respective vendors.
+Thank you so much for exploring the **Awesome 3D Lighting & Relighting Tools** ecosystem! ❤️
+
+If you find this curated collection helpful for your research, productions, or look-dev workflow:
+- ⭐ **Star** this repository to help others discover it!
+- 🍴 **Fork** and contribute your favorite lighting tools, neural papers, and scripts!
+- 📢 **Share** it with fellow technical directors, VFX supervisors, and 3D artists!
+- ☕ If you'd like to support ongoing curation and development, consider buying a coffee via our [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 🚀 How to Contribute
+
+We welcome additions, fixes, and ecosystem updates!
+
+1. 🍴 **Fork** this repository.
+2. ✏️ **Add or update** entries in `README.md` following the table schemas:
+   - For SaaS tools: Specify exact starting prices, free tier / trial limits, and company scale indicators.
+   - For Open-Source repositories: Include the official GitHub repository link, description, and social star badge linked to `/stargazers`.
+3. 🔢 Ensure entries remain sorted by company scale (for SaaS) or GitHub star count (for Open Source).
+4. 📬 **Submit a Pull Request** with a brief summary of additions.
+
+---
+
+## 📜 License & Disclaimer
+
+- ⚖️ Distributed under the [Creative Commons Zero v1.0 Universal License (CC0-1.0)](LICENSE).
+- ℹ️ Commercial product pricing, free tiers, and company metrics reflect publicly available information as of 2026 and are subject to change by respective vendors.
